@@ -1,7 +1,7 @@
 export const profile = {
   name: "Maria Ayaz",
-  role: "PhD Applicant in Education",
-  institution: "The University of Melbourne",
+  role: "Educational Researcher",
+  // institution: "The University of Melbourne",
   location: "Mardan, Khyber Pakhtunkhwa, Pakistan",
   phone: "+92 311 9179224",
   email: "mariakhan6900@gmail.com",
@@ -10,9 +10,8 @@ export const profile = {
   cvFile: "/cv/MariaAyaz_CV.pdf",
   tagline:
     "Researching how school leaders navigate curriculum reform \u2014 and what that means for classrooms in Pakistan and beyond.",
-  intro:
-    "I am an education researcher and EFL teacher-trainer whose work sits at the intersection of school leadership, curriculum policy, and teacher voice. My MA research used qualitative case study methods to understand how Pakistani school principals lead through national curriculum reform \u2014 work I want to extend at doctoral level.",
-  themeNodes: ["Leadership", "Curriculum", "Policy", "Voice", "Equity", "Language"],
+    intro:
+    "I am an English teacher and education researcher whose work sits at the intersection of school leadership, curriculum policy, and teacher voice. I have also led capacity-building workshops for EFL teachers on technology-enhanced instruction and am recognised as a Master Trainer by the U.S. Regional English Language Office (RELO). My MA research used qualitative case study methods to understand how Pakistani school principals lead through national curriculum reform — work I want to extend at the doctoral level.",
 };
 
 export const stats = [
