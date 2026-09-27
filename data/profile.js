@@ -175,17 +175,7 @@ export const publicationGroups = [
 ];
 
 export const employment = [
-  {
-    role: "English Language Instructor and Digital Literacy Trainer",
-    org: "English Access Microscholarship Program (U.S. Dept. of State), AWKUM",
-    location: "Mardan, Pakistan \u00b7 Part-time",
-    date: "May 2025 \u2013 Mar 2026",
-    points: [
-      "Taught English to learners from low-income backgrounds using a curriculum aligned with U.S. Department of State program objectives.",
-      "Taught digital literacy and ran capacity-building workshops for EFL teachers on technology-supported instruction.",
-      "Awarded a Master Trainer certificate at a RELO capacity-building workshop for English teachers (2025).",
-    ],
-  },
+
   {
     role: "Mentor",
     org: "Dahuni Foundation Mentorship Program",
@@ -204,6 +194,17 @@ export const employment = [
       "Taught English language and literature to Grades 9\u201312, including structured examination preparation.",
       "Organised inter-school debates, public-speaking competitions, and literacy activities.",
       "Best English Teacher Award (2021); Grooming Excellence Award (2021); Certificate of Academic Excellence (2020).",
+    ],
+  },
+  {
+    role: "English Language Instructor and Digital Literacy Trainer",
+    org: "English Access Microscholarship Program (U.S. Dept. of State), AWKUM",
+    location: "Mardan, Pakistan \u00b7 Part-time",
+    date: "May 2025 \u2013 Mar 2026",
+    points: [
+      "Taught English to learners from low-income backgrounds using a curriculum aligned with U.S. Department of State program objectives.",
+      "Taught digital literacy and ran capacity-building workshops for EFL teachers on technology-supported instruction.",
+      "Awarded a Master Trainer certificate at a RELO capacity-building workshop for English teachers (2025).",
     ],
   },
 ];
@@ -253,12 +254,14 @@ export const referees = [
     name: "Dr Abdullah Sahin",
     title: "Reader in Islamic Education, University of Warwick",
     location: "United Kingdom",
+    relationship: "Professor, MA in Education (UIII)",
     email: "a.sahin@warwick.ac.uk",
   },
   {
     name: "Dr Mujahid Shah",
     title: "Coordinator, English Access Scholarship Program, Abdul Wali Khan University Mardan",
     location: "Pakistan",
+    relationship: "Program Coordinator",
     email: "mujahidshah@awkum.edu.pk",
   },
 ];
