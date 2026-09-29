@@ -23,7 +23,7 @@ export const stats = [
 
 export const about = {
   bio: [
-    "I hold an MA in Education from Universitas Islam Internasional Indonesia (UIII), completed on a fully funded international scholarship, and a Gold Medal-winning BS in English from Abdul Wali Khan University Mardan. Between those two degrees I spent four years teaching English language and literature to Grades 9\u201312 in Pakistan, which is where my research questions actually come from.",
+    "I hold an MA in Education from Universitas Islam Internasional Indonesia (UIII), completed on a fully funded international scholarship, and BS in English from Abdul Wali Khan University Mardan. Between those two degrees I spent four years teaching English language and literature to Grades 9\u201312 in Pakistan, which is where my research questions actually come from.",
     "My thesis examined how twelve public-school principals in Khyber Pakhtunkhwa led their schools through Pakistan's Single National Curriculum reform, using semi-structured interviews conducted in English, Urdu, and Pashto and analysed thematically. That project, and the six papers that followed it, are the foundation for the doctoral work I want to pursue: a closer look at how policy intent becomes classroom reality, and whose voices get lost along the way.",
     "Alongside research, I teach: I currently train EFL teachers and run digital-literacy workshops under a U.S. Department of State program, and mentor Indonesian university students on scholarship applications and academic writing.",
   ],
