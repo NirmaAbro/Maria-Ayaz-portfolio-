@@ -10,13 +10,13 @@ export const profile = {
   cvFile: "/cv/MariaAyaz_CV.pdf",
   tagline:
     "Researching how school leaders navigate curriculum reform \u2014 and what that means for classrooms in Pakistan and beyond.",
-    intro:
+  intro:
     "I am an English teacher and education researcher whose work sits at the intersection of school leadership, curriculum policy, and teacher voice. I have also led capacity-building workshops for EFL teachers on technology-enhanced instruction and am recognised as a Master Trainer by the U.S. Regional English Language Office (RELO). My MA research used qualitative case study methods to understand how Pakistani school principals lead through national curriculum reform — work I want to extend at the doctoral level.",
 };
 
 export const stats = [
   { label: "Peer-reviewed publications", value: "8" },
-  { label: "Years teaching & training", value: "6+" },
+  { label: "Years teaching & training", value: "6" },
   { label: "Countries of fieldwork", value: "2" },
   { label: "Languages", value: "3" },
 ];
@@ -51,7 +51,10 @@ export const about = {
   languages: [
     { name: "Pashto", level: "Native" },
     { name: "Urdu", level: "Fluent" },
-    { name: "English", level: "Professional working proficiency \u2014 English-medium BS & MA" },
+    {
+      name: "English",
+      level: "Professional working proficiency \u2014 English-medium BS & MA",
+    },
   ],
 };
 
@@ -67,7 +70,10 @@ export const education = [
       "Thesis (A-) and Thesis Proposal (A-), 9 of 44 program credits: \u201cNavigating Leadership in the Era of the Single National Curriculum in Pakistan: A Case Study of Strategies and Challenges in Khyber Pakhtunkhwa Schools.\u201d Qualitative case study of 12 public-school principals (urban/rural, purposive sampling), triangulated with teacher interviews and questionnaires; guides developed in English, translated into Urdu and Pashto; thematic analysis (Braun & Clarke). Supervisors: Dr Destina Wahyu Winarti and Dr Bambang Sumintono.",
       "Relevant courses: Educational Management and Leadership (A-); Educational Policy Analysis (A); Educational Research Methodology (A-); Statistical Analysis (A); Educational Assessment (A).",
     ],
-    link: { label: "View thesis record", href: "https://hdl.handle.net/20.500.14576/293" },
+    link: {
+      label: "View thesis record",
+      href: "https://hdl.handle.net/20.500.14576/293",
+    },
   },
   {
     degree: "Bachelor of Studies in English",
@@ -123,14 +129,16 @@ export const publicationGroups = [
         year: "2024",
         title:
           "Human capital for economic development: A study of education production performance (EPP) in Khairpur.",
-        venue: "Cognizance Journal of Multidisciplinary Studies, 4(2), 232\u2013242.",
+        venue:
+          "Cognizance Journal of Multidisciplinary Studies, 4(2), 232\u2013242.",
       },
       {
         authors: "Bouchouk, O., & Ayaz, M.",
         year: "2024",
         title:
           "The relationship between Islamic teachings and cultural values in shaping attitudes towards gender roles in Indonesia.",
-        venue: "ROMEO: Review of Multidisciplinary Education, Culture and Pedagogy, 3(3), 211\u2013217.",
+        venue:
+          "ROMEO: Review of Multidisciplinary Education, Culture and Pedagogy, 3(3), 211\u2013217.",
       },
       {
         authors: "Numan, M., & Ayaz, M.",
@@ -149,7 +157,8 @@ export const publicationGroups = [
       {
         authors: "Rozak, D. L., & Ayaz, M.",
         year: "2023",
-        title: "Curriculum innovation in language instruction: Adapting to changing learner needs.",
+        title:
+          "Curriculum innovation in language instruction: Adapting to changing learner needs.",
         venue: "TRANSTOOL, 2(4), 22\u201335.",
       },
     ],
@@ -162,20 +171,22 @@ export const publicationGroups = [
         year: "2025",
         title:
           "To be or to belong: Exploring the consciousness of being in Shafak\u2019s The Island of Missing Trees through Sartrean existentialism.",
-        venue: "Journal of Humanities, Social Sciences and Business, 4(4), 887\u2013893.",
+        venue:
+          "Journal of Humanities, Social Sciences and Business, 4(4), 887\u2013893.",
       },
       {
         authors: "Ayaz, M., & Numan, M.",
         year: "2024",
-        title: "Depression as a serious human dilemma in the novel Moth Smoke by Mohsin Hamid.",
-        venue: "Journal of Humanities, Social Sciences and Business, 3(3), 734\u2013751.",
+        title:
+          "Depression as a serious human dilemma in the novel Moth Smoke by Mohsin Hamid.",
+        venue:
+          "Journal of Humanities, Social Sciences and Business, 3(3), 734\u2013751.",
       },
     ],
   },
 ];
 
 export const employment = [
-
   {
     role: "Mentor",
     org: "Dahuni Foundation Mentorship Program",
@@ -210,42 +221,128 @@ export const employment = [
 ];
 
 export const certifications = [
-  { title: "TESOL Professional Certificate (8-course specialization)", issuer: "Arizona State University via Coursera", year: "2026" },
-  { title: "OPEN Professional Development for Teacher Trainers MOOC", issuer: "U.S. Department of State / FHI 360", year: "2026" },
-  { title: "TEFL Professional Certificate (120 hours, Distinction)", issuer: "TEFL Professional Institute", year: "2025" },
-  { title: "Teaching OxfordAQA International GCSE English as a Second Language", issuer: "OxfordAQA", year: "2025" },
-  { title: "Access Teachers Training Certificate", issuer: "U.S. Embassy Pakistan / RELO", year: "2025" },
   {
-    title: "Master Trainer Certificate, Capacity Building Workshop for English Teachers of Orphan Centers",
-    issuer: "English Access Scholarship Program AWKUM & University of Malakand / RELO",
+    title: "TESOL Professional Certificate (8-course specialization)",
+    issuer: "Arizona State University via Coursera",
+    year: "2026",
+  },
+  {
+    title: "OPEN Professional Development for Teacher Trainers MOOC",
+    issuer: "U.S. Department of State / FHI 360",
+    year: "2026",
+  },
+  {
+    title: "TEFL Professional Certificate (120 hours, Distinction)",
+    issuer: "TEFL Professional Institute",
     year: "2025",
   },
-  { title: "Short courses: Lesson Planning, Lesson Management, Safeguarding, Leadership, Digital Business Skills", issuer: "British Council", year: "2024\u20132025" },
+  {
+    title: "Teaching OxfordAQA International GCSE English as a Second Language",
+    issuer: "OxfordAQA",
+    year: "2025",
+  },
+  {
+    title: "Access Teachers Training Certificate",
+    issuer: "U.S. Embassy Pakistan / RELO",
+    year: "2025",
+  },
+  {
+    title:
+      "Master Trainer Certificate, Capacity Building Workshop for English Teachers of Orphan Centers",
+    issuer:
+      "English Access Scholarship Program AWKUM & University of Malakand / RELO",
+    year: "2025",
+  },
+  {
+    title:
+      "Short courses: Lesson Planning, Lesson Management, Safeguarding, Leadership, Digital Business Skills",
+    issuer: "British Council",
+    year: "2024\u20132025",
+  },
 ];
 
 export const conferences = [
-  { activity: "Presenter, First and Second Faculty of Education Annual Conferences", org: "UIII, Indonesia", year: "2022, 2023" },
-  { activity: "Speaker, In-House Training on Multimodality in English Teaching-Learning", org: "SIT Al-Fatih 1, Tangerang, Indonesia", year: "2024" },
-  { activity: "Guest Teacher, SMALKI FUNTASTIC program", org: "SMAIT Al Haraki, Citra Raya, Indonesia", year: "2023" },
-  { activity: "Participant, Summer Course Program, Faculty of Education", org: "Universitas Negeri Malang, Indonesia", year: "2024" },
-  { activity: "Participant, Innovative Approaches in Literacy Teaching lectures", org: "UIII and Deakin University", year: "2023" },
-  { activity: "Participant, Writing for Academic Publication Workshop", org: "UIII", year: "2023" },
-  { activity: "Participant, First International Conference on Interfaith Peace Leadership", org: "UIII", year: "2023" },
-  { activity: "Participant, Oxford Teacher\u2019s E-Symposium", org: "University of Oxford (online)", year: "2022" },
-  { activity: "Participant, 1st International Multidisciplinary Graduate Conference", org: "Bilquis Postgraduate College", year: "2019" },
+  {
+    activity:
+      "Presenter, First and Second Faculty of Education Annual Conferences",
+    org: "UIII, Indonesia",
+    year: "2022, 2023",
+  },
+  {
+    activity:
+      "Speaker, In-House Training on Multimodality in English Teaching-Learning",
+    org: "SIT Al-Fatih 1, Tangerang, Indonesia",
+    year: "2024",
+  },
+  {
+    activity: "Guest Teacher, SMALKI FUNTASTIC program",
+    org: "SMAIT Al Haraki, Citra Raya, Indonesia",
+    year: "2023",
+  },
+  {
+    activity: "Participant, Summer Course Program, Faculty of Education",
+    org: "Universitas Negeri Malang, Indonesia",
+    year: "2024",
+  },
+  {
+    activity:
+      "Participant, Innovative Approaches in Literacy Teaching lectures",
+    org: "UIII and Deakin University",
+    year: "2023",
+  },
+  {
+    activity: "Participant, Writing for Academic Publication Workshop",
+    org: "UIII",
+    year: "2023",
+  },
+  {
+    activity:
+      "Participant, First International Conference on Interfaith Peace Leadership",
+    org: "UIII",
+    year: "2023",
+  },
+  {
+    activity: "Participant, Oxford Teacher\u2019s E-Symposium",
+    org: "University of Oxford (online)",
+    year: "2022",
+  },
+  {
+    activity:
+      "Participant, 1st International Multidisciplinary Graduate Conference",
+    org: "Bilquis Postgraduate College",
+    year: "2019",
+  },
 ];
 
 export const awards = [
-  { title: "Fully funded international scholarship for MA in Education", org: "UIII, Indonesia", year: "2022" },
-  { title: "Best English Teacher Award; Grooming Excellence Award; Efficiency Certificate", org: "APSACS Mardan", year: "2021" },
-  { title: "Certificate of Academic Excellence", org: "APSACS Mardan", year: "2020" },
-  { title: "Master Trainer Certificate, Capacity Building Workshop for English Teachers of Orphan Centers, English Access Scholarship", org: "RELO"},
+  {
+    title: "Fully funded international scholarship for MA in Education",
+    org: "UIII, Indonesia",
+    year: "2022",
+  },
+  {
+    title:
+      "Best English Teacher Award; Grooming Excellence Award; Efficiency Certificate",
+    org: "APSACS Mardan",
+    year: "2021",
+  },
+  {
+    title: "Certificate of Academic Excellence",
+    org: "APSACS Mardan",
+    year: "2020",
+  },
+  {
+    title:
+      "Master Trainer Certificate, Capacity Building Workshop for English Teachers of Orphan Centers, English Access Scholarship",
+    org: "RELO",
+  },
 ];
 
 export const referees = [
   {
     name: "Dr Bambang Sumintono",
-    title: "Head of PhD Study Program, Faculty of Education, Universitas Islam Internasional Indonesia",
+    title:
+      "Head of PhD Study Program, Faculty of Education, Universitas Islam Internasional Indonesia",
     location: "Depok, Indonesia",
     relationship: "MA thesis co-supervisor",
     email: "bambang.sumintono@uiii.ac.id",
@@ -259,7 +356,8 @@ export const referees = [
   },
   {
     name: "Dr Mujahid Shah",
-    title: "Coordinator, English Access Scholarship Program, Abdul Wali Khan University Mardan",
+    title:
+      "Coordinator, English Access Scholarship Program, Abdul Wali Khan University Mardan",
     location: "Pakistan",
     relationship: "Program Coordinator",
     email: "mujahidshah@awkum.edu.pk",
