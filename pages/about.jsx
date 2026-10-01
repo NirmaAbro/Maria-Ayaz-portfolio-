@@ -28,7 +28,7 @@ export default function About() {
       <PageHeader
         eyebrow="About"
         title="From the classroom to the case study"
-        description="A brief version of how six years of teaching turned into a research agenda."
+        description="A brief version of how five years of teaching turned into a research agenda."
       />
 
       <section className="mx-auto max-w-content px-6 py-16 md:px-10 md:py-20">

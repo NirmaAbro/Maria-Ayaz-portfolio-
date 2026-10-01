@@ -153,8 +153,6 @@ export default function Home() {
       <Seo />
 
       {/* Hero */}
-      ```jsx
-      {/* Hero */}
       <section className="mx-auto max-w-content px-6 pb-20 pt-14 md:px-10 md:pb-28 md:pt-20">
         <div className="grid items-center gap-12 md:grid-cols-[1.05fr_0.95fr] md:gap-16">
 

@@ -16,7 +16,7 @@ export const profile = {
 
 export const stats = [
   { label: "Peer-reviewed publications", value: "8" },
-  { label: "Years teaching & training", value: "6" },
+  { label: "Years teaching & training", value: "5" },
   { label: "Countries of fieldwork", value: "2" },
   { label: "Languages", value: "3" },
 ];
@@ -351,7 +351,7 @@ export const referees = [
     name: "Dr Abdullah Sahin",
     title: "Reader in Islamic Education, University of Warwick",
     location: "United Kingdom",
-    relationship: "Professor, MA in Education (UIII)",
+    relationship: "Visiting Faculty, MA in Education (UIII)",
     email: "a.sahin@warwick.ac.uk",
   },
   {
