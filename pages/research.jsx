@@ -68,7 +68,7 @@ export default function Research() {
       <PageHeader
         eyebrow="Research"
         title="Research work"
-        description="Fieldwork, thesis research, and eight peer-reviewed publications across education policy and English literature."
+        description="Fieldwork, thesis research, and publications across education policy and English literature."
       />
 
       <section className="mx-auto max-w-content px-6 py-16 md:px-10 md:py-20">

@@ -14,7 +14,7 @@ export default function Experience() {
       <PageHeader
         eyebrow="Experience"
         title="Employment history"
-        description="Six years teaching and training, before and alongside graduate research."
+        description="Five years teaching and training, before and alongside graduate research."
       />
 
       <section className="mx-auto max-w-content px-6 py-16 md:px-10 md:py-20">

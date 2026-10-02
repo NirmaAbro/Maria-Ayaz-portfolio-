@@ -11,11 +11,11 @@ export const profile = {
   tagline:
     "Researching how school leaders navigate curriculum reform \u2014 and what that means for classrooms in Pakistan and beyond.",
   intro:
-    "I am an English teacher and education researcher whose work sits at the intersection of school leadership, curriculum policy, and teacher voice. I have also led capacity-building workshops for EFL teachers on technology-enhanced instruction and am recognised as a Master Trainer by the U.S. Regional English Language Office (RELO). My MA research used qualitative case study methods to understand how Pakistani school principals lead through national curriculum reform — work I want to extend at the doctoral level.",
+    "I am an English teacher and educational researcher whose work sits at the intersection of school leadership, curriculum policy, and teacher voice. I have also led capacity-building workshops for EFL teachers on technology-enhanced instruction and recognised as a Master Trainer by the U.S. Regional English Language Office (RELO). My MA research used qualitative case study methods to understand how Pakistani school principals lead through national curriculum reform work; I want to extend at the doctoral level.",
 };
 
 export const stats = [
-  { label: "Peer-reviewed publications", value: "8" },
+  { label: "Publications", value: "8" },
   { label: "Years teaching & training", value: "5" },
   { label: "Countries of fieldwork", value: "2" },
   { label: "Languages", value: "3" },
@@ -24,8 +24,8 @@ export const stats = [
 export const about = {
   bio: [
     "I hold an MA in Education from Universitas Islam Internasional Indonesia (UIII), completed on a fully funded international scholarship, and BS in English from Abdul Wali Khan University Mardan. Between those two degrees I spent four years teaching English language and literature to Grades 9\u201312 in Pakistan, which is where my research questions actually come from.",
-    "My thesis examined how twelve public-school principals in Khyber Pakhtunkhwa led their schools through Pakistan's Single National Curriculum reform, using semi-structured interviews conducted in English, Urdu, and Pashto and analysed thematically. That project, and the six papers that followed it, are the foundation for the doctoral work I want to pursue: a closer look at how policy intent becomes classroom reality, and whose voices get lost along the way.",
-    "Alongside research, I teach: I currently train EFL teachers and run digital-literacy workshops under a U.S. Department of State program, and mentor Indonesian university students on scholarship applications and academic writing.",
+    "My thesis examined how twelve public-school principals in Khyber Pakhtunkhwa led their schools through Pakistan's Single National Curriculum reform, using semi-structured interviews conducted in English, Urdu, and Pashto and analysed thematically. That project wasthe foundation for the doctoral work I want to pursue: a closer look at how policy intent becomes classroom reality, and whose voices get lost along the way.",
+    "Alongside research, I taught: I trained EFL teachers and run digital-literacy workshops under a U.S. Department of State program, and currently, mentoring Indonesian university students on scholarship applications and academic writing.",
   ],
   researchInterests: [
     "Educational leadership & school reform",
@@ -98,7 +98,7 @@ export const researchExperience = [
     points: [
       "Designed and carried out a qualitative case study of twelve school principals in Pakistan on leading schools through the Single National Curriculum reform.",
       "Led the study from research design through data collection, thematic analysis, and write-up.",
-      "Published findings as a single-authored article (Ayaz, 2024).",
+
     ],
   },
   {
@@ -159,7 +159,7 @@ export const publicationGroups = [
         year: "2023",
         title:
           "Curriculum innovation in language instruction: Adapting to changing learner needs.",
-        venue: "TRANSTOOL, 2(4), 22\u201335.",
+        venue: "TRANSTOOL, 2(4), 24\u201329.",
       },
     ],
   },
@@ -209,7 +209,7 @@ export const employment = [
   },
   {
     role: "English Language Instructor and Digital Literacy Trainer",
-    org: "English Access Microscholarship Program (U.S. Dept. of State), AWKUM",
+    org: "English Access Scholarship Program (U.S. Dept. of State), AWKUM",
     location: "Mardan, Pakistan \u00b7 Part-time",
     date: "May 2025 \u2013 Mar 2026",
     points: [
@@ -351,7 +351,8 @@ export const referees = [
     name: "Dr Abdullah Sahin",
     title: "Reader in Islamic Education, University of Warwick",
     location: "United Kingdom",
-    relationship: "Visiting Faculty, MA in Education (UIII)",
+    relationship:
+      "MA Course Instructor, UIII (Visiting Faculty Professor, 2021-2024)",
     email: "a.sahin@warwick.ac.uk",
   },
   {
